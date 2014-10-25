@@ -26,4 +26,9 @@ puts "He's got #{eyes} eyes and #{hair} hair."
 puts "He's teeth is usually #{teeth} depends on the coffee."
 
 # This line is tricky, try to get it exactly right
-puts "If I add #{age}, #{height * centimeters_per_inches}, and #{weight * kilograms_per_pounds} I get #{age + (height * centimeters_per_inches) + (weight * kilograms_per_pounds)}."
+puts "If I add #{age}, #{height * centimeters_per_inches}," \
+  " and #{weight * kilograms_per_pounds}" \
+  " I get #{
+   age + (height * centimeters_per_inches) +
+   (weight * kilograms_per_pounds)
+   }."
